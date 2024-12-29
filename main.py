@@ -7,7 +7,11 @@ def main():
     digit4, digit5 = divmod(remainder, 10)
 
 
-    print(digit5, digit4, digit3, digit2, digit1)
+    print(digit5, end = "")
+    print(digit4, end = "")
+    print(digit3, end = "")
+    print(digit2, end = "")
+    print(digit1, end = "")
 
 if __name__ == "__main__":
     main()
